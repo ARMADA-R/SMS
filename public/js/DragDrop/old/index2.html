@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" type="text/css" href="dragtable.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="https://github.com/akottr/dragtable/blob/master/jquery.dragtable.js"></script>
+  <title>jquery.dragtable.js</title>
+</head>
+
+<body>
+  <ul class="list">
+
+    <li>FUNCTIONAL GROUP</li>
+    <li>CALLS IN QUEUE</li>
+    <li>LONG CALL WAITING</li>
+    <li>SERVICE LEVEL</li>
+    <li>AGENTS STAFFED</li>
+    <li>Forecasted staff</li>
+    <li>Longest Agent Available</li>
+    <li>AGENTS AVAL</li>
+    <li>AGENTS ON CALL</li>
+    <li>Cumulative CALLS OFFERED</li>
+    <li>Cumulative CALLS HANDLED</li>
+    <li>Cumulative SERVICE LEVEL</li>
+    <li>Cumulative CALLS ABND %</li>
+
+  </ul>
+  <table class="table dataTable tree" id="table-first" data-role="table" data-mode="columntoggle">
+    <colgroup>
+      <col id="col0">
+        <col id="col1">
+          <col id="col2">
+            <col id="col3">
+              <col id="col4">
+                <col id="col5">
+                  <col id="col6">
+                    <col id="col7">
+                      <col id="col8">
+                        <col id="col9">
+                          <col id="col10">
+                            <col id="col11">
+                              <col id="col12">
+                                <col id="col13">
+                                  <col id="col14">
+    </colgroup>
+    <thead>
+      <tr>
+        <th width="18%">FUNCTIONAL GROUP</th>
+        <th width="5%">CALLS IN QUEUE</th>
+        <th width="7%">LONG CALL WAITING</th>
+        <th width="6%">SERVICE LEVEL</th>
+        <th width="6%">AGENTS STAFFED</th>
+        <th width="7%">Forecasted staff</th>
+        <th width="8%">Longest Agent Available</th>
+        <th width="5%">AGENTS AVAL</th>
+        <th width="6%">AGENTS ON CALL</th>
+        <th width="8%">Cumulative CALLS OFFERED</th>
+        <th width="8%">Cumulative CALLS HANDLED</th>
+        <th width="8%">Cumulative SERVICE LEVEL</th>
+        <th width="8%">Cumulative CALLS ABND %</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!--START BILLING TABLE SECTION-->
+      <tr class="treegrid-1 drill-parent">
+        <td>BILLING</td>
+        <td>7</td>
+        <td>:57:12</td>
+        <td>&nbsp;</td>
+        <td>100</td>
+        <td>120</td>
+        <td>0:00:27</td>
+        <td>50</td>
+        <td>50</td>
+        <td>984</td>
+        <td>835</td>
+        <td>86.79%</td>
+        <td>15.14%</td>
+      </tr>
+      <tr class="treegrid-2 treegrid-parent-1">
+        <td>BILLING-COX</td>
+        <td>2</td>
+        <td>:50:10</td>
+        <td>80.50%</td>
+        <td>50</td>
+        <td>55</td>
+        <td>0:00:27</td>
+        <td>20</td>
+        <td>20</td>
+        <td>60</td>
+        <td>230</td>
+        <td>79.23%</td>
+        <td>2.80%</td>
+      </tr>
+      <tr class="treegrid-3 treegrid-parent-2">
+        <td>Payment</td>
+        <td>2</td>
+        <td>:50</td>
+        <td>90.00%</td>
+        <td>10</td>
+        <td>12</td>
+        <td>0:00:27</td>
+        <td>6</td>
+        <td>6</td>
+        <td>60</td>
+        <td>230</td>
+        <td>54</td>
+        <td>1.00%</td>
+      </tr>
+
+      <tr class="treegrid-66 treegrid-parent-62">
+        <td>COLLECTIONS-SITEL</td>
+        <td>3</td>
+        <td>20</td>
+        <td>60</td>
+        <td>14</td>
+        <td>7</td>
+        <td>0:00:27</td>
+        <td>12</td>
+        <td>12</td>
+        <td>45</td>
+        <td>200</td>
+        <td>89.00%</td>
+        <td>2</td>
+      </tr>
+      <tr class="treegrid-67 treegrid-parent-66">
+        <td>SAINT CATH</td>
+        <td>3</td>
+        <td>20</td>
+        <td>60</td>
+        <td>14</td>
+        <td>7</td>
+        <td>0:00:27</td>
+        <td>12</td>
+        <td>12</td>
+        <td>45</td>
+        <td>200</td>
+        <td>89.00%</td>
+        <td>2</td>
+      </tr>
+      <tr class="treegrid-68 treegrid-parent-67">
+        <td>COLLECTIONS OPERATION</td>
+        <td>3</td>
+        <td>20</td>
+        <td>60</td>
+        <td>14</td>
+        <td>7</td>
+        <td>0:00:27</td>
+        <td>12</td>
+        <td>12</td>
+        <td>45</td>
+        <td>200</td>
+        <td>89.00%</td>
+        <td>2</td>
+      </tr>
+      <tr class="treegrid-69 treegrid-parent-67">
+        <td>COLLECTIONS</td>
+        <td>3</td>
+        <td>20</td>
+        <td>60</td>
+        <td>14</td>
+        <td>7</td>
+        <td>0:00:27</td>
+        <td>12</td>
+        <td>12</td>
+        <td>45</td>
+        <td>200</td>
+        <td>89.00%</td>
+        <td>2</td>
+      </tr>
+      <tr class="treegrid-70 treegrid-parent-67">
+        <td>TELEPHONE</td>
+        <td>3</td>
+        <td>20</td>
+        <td>60</td>
+        <td>14</td>
+        <td>7</td>
+        <td>0:00:27</td>
+        <td>12</td>
+        <td>12</td>
+        <td>45</td>
+        <td>200</td>
+        <td>89.00%</td>
+        <td>2</td>
+      </tr>
+      <tr class="treegrid-71 treegrid-parent-66">
+        <td>PANAMA</td>
+        <td>3</td>
+        <td>20</td>
+        <td>60</td>
+        <td>14</td>
+        <td>7</td>
+        <td>0:00:27</td>
+        <td>12</td>
+        <td>12</td>
+        <td>45</td>
+        <td>200</td>
+        <td>89.00%</td>
+        <td>2</td>
+      </tr>
+      <tr class="treegrid-72 treegrid-parent-71">
+        <td>COLLECTIONS</td>
+        <td>3</td>
+        <td>20</td>
+        <td>60</td>
+        <td>14</td>
+        <td>7</td>
+        <td>0:00:27</td>
+        <td>12</td>
+        <td>12</td>
+        <td>45</td>
+        <td>200</td>
+        <td>89.00%</td>
+        <td>2</td>
+      </tr>
+      <!--END COLLECTIONS TABLE SECTION-->
+
+    </tbody>
+  </table>
+</body>
+
+</html>
